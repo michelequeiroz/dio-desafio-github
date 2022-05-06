@@ -1,0 +1,35 @@
+##Comandos Github##
+
+git init
+>>Cria um novo repositório na pasta raiz.
+
+git add .
+>>Adiciona todos os arquivos/Diretórios
+
+git commit -m "nome do seu commit aqui"
+>>Comita o arquivo informando uma mensagem
+
+git branch -M main
+>>Seleciona o branch(ramo) principal do seu repositório.
+
+git remote add origin https://github.com/michelequeiroz/dio-desafio-github.git
+>>Vincula o repositorio local com seu repositório remoto
+
+git push -U origin main
+>>O primeiro push de um repositório contendo o nome do repositório remoto e branch
+
+###Enviando Atualizações###
+
+git init
+
+git status
+
+git add .
+
+git commit -m "nome do commit"
+
+git pull origin main
+
+git push origin main
+
+ 
